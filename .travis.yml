@@ -2,10 +2,10 @@ language: go
 
 go:
   - 1.4
-  - 1.5 beta 2
 
 install:
   - go get github.com/stretchr/testify/assert
+  - go get github.com/PuerkitoBio/goquery
 
 script: 
   - go test ./...
